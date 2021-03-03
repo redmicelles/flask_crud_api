@@ -6,7 +6,7 @@ This API is built with Flask and SQLAlchemy, it implements create, read, upload,
 
 Create API:
 The request will have the following fields:
-- <strong>audioFileType<strong> – mandatory, one of the 3 audio types possible (song, podcast, audiobook)
+- audioFileType – mandatory, one of the 3 audio types possible (song, podcast, audiobook)
 - audioFileMetadata – mandatory, dictionary, contains the metadata for one of the three audio files (song, podcast, audiobook)
 - Actual route: `http://localhost:5000/fileserver/create_file`
 
@@ -37,7 +37,7 @@ Podcast file:
 - uploaded_time – (mandatory, Datetime, cannot be in the past)
 - host – (mandatory, string, cannot be larger than 100 characters)
 - Participants – (optional, list of strings, each string cannot be larger than 100 characters, maximum of 10 participants possible)
--
+
 Audiobook file:
 - title – (mandatory, string, cannot be larger than 100 characters)
 - author of the title (mandatory, string, cannot be larger than 100 characters)
