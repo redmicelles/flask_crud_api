@@ -20,12 +20,12 @@ Update API:
 - Actual route: `http://localhost:5000/fileserver/update_file/<audioFileType>/<audioFileID>`
 
 Get API:
-- The route “<audioFileType>/<audioFileID>” will return the specific audio file
-- The route “<audioFileType>” will return all the audio files of that type
+- The route `<audioFileType>/<audioFileID>` will return the specific audio file
+- The route `<audioFileType>` will return all the audio files of that type
 - Actual route: `http://localhost:5000/fileserver/get_file/<audioFileType>/<audioFileID>`
 
 Setup Instructions:
--Kindly use the 'requirements.txt' file to install all required python packages.
--Lines 6, 7, 8, & 9 of crudapi.py should be edited and appropriate database connection details filled
--The database connection string on Line 12 may also be replace for other supported SQL like PostgreSQL
--Four test have to provided to test each endpoint of the API, otherwise Postman App(https://www.postman.com/downloads/) may be a suitable alternative.
+- Kindly use the 'requirements.txt' file to install all required python packages.
+- Lines 6, 7, 8, & 9 of crudapi.py should be edited and appropriate database connection details filled
+- The database connection string on Line 12 may also be replace for other supported SQL like PostgreSQL
+- Four test have to provided to test each endpoint of the API, otherwise Postman App(https://www.postman.com/downloads/) may be a suitable alternative.
