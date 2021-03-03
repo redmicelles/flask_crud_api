@@ -10,8 +10,8 @@ The request will have the following fields:
 - audioFileMetadata – mandatory, dictionary, contains the metadata for one of the three audio files (song, podcast, audiobook)
 
 Delete API:
-- The route will be in the following format: <audioFileType>/<audioFileID>
-- Actual route: http://localhost:5000/fileserver/delete_file/<audioFileType>/<audioFileID>
+- The route will be in the following format: `<audioFileType>/<audioFileID>`
+- Actual route: http://localhost:5000/fileserver/delete_file/`<audioFileType>/<audioFileID>`
 
 Update API:
 - The route be in the following format: “<audioFileType>/<audioFileID>”
